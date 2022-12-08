@@ -489,7 +489,7 @@ section {
 # Akills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
+  height: auto;
   display: block;
   background: none;
   border-radius: 0;
@@ -503,6 +503,7 @@ section {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #45505b;
+  font-size: 1.2rem;
 }
 
 .skills .progress .skill .val {
@@ -1231,4 +1232,22 @@ section {
 .about-details-list {
   display: flex;
   justify-content: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.single-skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single-skill > svg {
+  height: 3rem;
+  width: 3rem;
 }
