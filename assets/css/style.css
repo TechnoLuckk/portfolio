@@ -1239,15 +1239,27 @@ section {
   flex-direction: row;
   gap: 1.5rem;
   margin-bottom: 1rem;
+  flex-wrap: wrap
 }
 
 .single-skill {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: min-content;
+  text-align: center;
 }
 
 .single-skill > svg {
   height: 3rem;
   width: 3rem;
+}
+
+.project h3, .project h5 {
+  margin-bottom: 2rem;
+}
+
+.project-desc {
+  text-align: left;
+  padding: 1rem 3rem;
 }
